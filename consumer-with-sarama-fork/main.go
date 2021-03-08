@@ -47,10 +47,7 @@ func main() {
 				os.Exit(1)
 			}
 
-			// fmt.Println("test2")
-
 			if ctx.Err() != nil {
-				//exit for loop
 				return
 			}
 		}
@@ -82,7 +79,6 @@ func (h messageHandler) Cleanup(s sarama.ConsumerGroupSession) error {
 	return nil
 }
 func (h messageHandler) ConsumeClaim(s sarama.ConsumerGroupSession, c sarama.ConsumerGroupClaim) error {
-	// fmt.Println("test1")
 	for msg := range c.Messages() {
 		fmt.Printf("Message topic:%q partition:%d offset:%d\n", msg.Topic, msg.Partition, msg.Offset)
 		fmt.Println("Message content", string(msg.Value))
