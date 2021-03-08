@@ -7,5 +7,5 @@ error consuming from group kafka: response did not contain all the expected topi
 exit status 1
 ```
 
-[consumer-with-sarama](consumer-with-sarama) - using original sarama 1.28.0 module
+[consumer-with-sarama](consumer-with-sarama) - using original sarama 1.28.0 module  
 [consumer-with-sarama-fork](consumer-with-sarama-fork) - using a fork with a suggested fix
