@@ -1,4 +1,4 @@
-# Reprodution of a sarama/AEH (Azure Event Hub) bug
+# Repro for a sarama/AEH (Azure Event Hub) bug
 
 [Github issue link](https://github.com/Shopify/sarama/issues/1540)
 
