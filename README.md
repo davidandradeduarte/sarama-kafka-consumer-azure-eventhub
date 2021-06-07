@@ -1,6 +1,6 @@
 # Reproducing a bug in Azure Event Hub bug when using sarama client library
 
-[Github issue link](https://github.com/Shopify/sarama/issues/1540)
+[**Github issue**](https://github.com/Shopify/sarama/issues/1540)
 
 ```
 error consuming from group kafka: response did not contain all the expected topic/partition blocks
