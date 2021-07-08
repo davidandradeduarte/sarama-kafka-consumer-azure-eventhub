@@ -1,4 +1,4 @@
-# Reproducing a bug in Azure Event Hub bug when using sarama client library
+# Reproducing a bug in Azure Event Hub when using sarama client library
 
 [**Github issue**](https://github.com/Shopify/sarama/issues/1540)
 
